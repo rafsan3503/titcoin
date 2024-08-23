@@ -1,0 +1,210 @@
+<!DOCTYPE HTML>
+<html lang="en">
+
+<head>
+
+
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta property="og:image" content="https://bitcoin.orghttps://bitcoin.org/img/icons/opengraph.png?1723489667" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <title>TitCoin</title>
+    
+    <link rel="stylesheet" href="https://bitcoin.org/css/font-awesome-4.4.0https://bitcoin.org/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://bitcoin.org/css/main.css?1723489667">
+    <!--[if lt IE 8]><link rel="stylesheet" href="https://bitcoin.org/css/ie.css"><script type="text/javascript" src="https://bitcoin.org/js/ie.js"></script><![endif]-->
+    <!--[if IE 8]><link rel="stylesheet" href="https://bitcoin.org/css/ie8.css"><![endif]-->
+
+
+    <script type="text/javascript" src="https://bitcoin.org/js/base.js?1723489667"></script>
+    <script type="text/javascript" src="https://bitcoin.org/js/main.js?1723489667"></script>
+    <script src="https://bitcoin.org/js/jquery/jquery-1.11.2.min.js"></script>
+    <script src="https://bitcoin.org/js/jquery/jquery-ui.min.js"></script>
+    <script src="https://bitcoin.org/js/jquery/jquery.qrcode.min.js"></script>
+
+    <link rel="shortcut icon" href="./tits_logo2.png">
+    
+    <script>
+        window.cookieconsent_options = {
+            theme: 'light-floating'
+        }
+    </script>
+    <script type="text/javascript" src="https://bitcoin.org/js/cookieconsent/cookieconsent.js?1723489667"></script>
+    <script>
+        if (navigator.doNotTrack != "yes" && navigator.doNotTrack != "1" && window.doNotTrack != "1" && navigator.msDoNotTrack != "1") {
+            var script = document.createElement('script');
+            script.src = 'https://bitcoin.org/js/analytics.js'
+            document.getElementsByTagName("head")[0].appendChild(script);
+        }
+    </script>
+
+</head>
+
+<body>
+
+
+
+    <div class="donation-container">
+        
+        <button type="button" class="donation-visibility-toggle" onclick="toggleDonationBanner()">
+            Titcoin needs your attention!
+        </button>
+    </div>
+
+
+
+    
+
+
+
+    <div id="detectmobile" class="detectmobile"></div>
+
+
+
+
+
+
+
+    <div class="head">
+        <div>
+
+
+            <a class="logo"><img style="height: auto;" src="./tits_logo2.png" alt="Bitcoin"></a>
+
+
+
+            <ul id="menusimple" class="menusimple menumain" onclick="mobileMenuHover(event);"
+                ontouchstart="mobileMenuHover(event);">
+                <li><a href="https://t.me/titcoinonsol">Telegram</a>
+                    
+                </li>
+                <li><a href="https://x.com/titcoinsolana">Twitter</a>
+                    
+                </li>
+                <li><a href="https://www.dextools.io/app/en/solana/pair-explorer/47k7Q9dwgvoMDWZWidMYEAcPqVWCmr3c7uf45VNvgDqi">Chart</a></li>
+                <li><a href="https://raydium.io/swap/?inputMint=sol&outputMint=5j1wWnDNiQepDvaMM3oh8dYdDtFjfEe4p8jar9gypump">Raydium</a>
+                    
+                </li>
+               
+            </ul>
+
+
+
+            <a id="menumobile" class="menumobile" onclick="mobileMenuShow(event);"
+                ontouchstart="mobileMenuShow(event);"></a>
+
+
+          
+
+
+           
+
+        </div>
+    </div>
+
+    <div class="body">
+
+
+        <div class="breadcrumbs">
+            <div class="container">
+
+            </div>
+        </div>
+
+
+
+        <div id="content" class="content">
+
+
+
+            <div class="mainhero">
+                <div class="container hero-container">
+                    <p class="mainsummary">🎉 Exactly 15 years ago, Satoshi Nakamoto playfully considered this
+                    name for Bitcoin.</p>
+                    <div class="btn-container">
+                        <a class="btn btn-bright btn-home" href="https://raydium.io/swap/?inputMint=sol&outputMint=5j1wWnDNiQepDvaMM3oh8dYdDtFjfEe4p8jar9gypump">Buy Titcoin</a>
+                        <a class="btn btn-light btn-home" href="https://www.dextools.io/app/en/solana/pair-explorer/47k7Q9dwgvoMDWZWidMYEAcPqVWCmr3c7uf45VNvgDqi">View Chart</a>
+                        <a id="buybitcoinbutton" class="btn btn-light btn-home" href="https://t.me/titcoinonsol">Join Community</a>
+                    </div>
+
+                  
+
+                </div>
+            </div>
+            <div class="mainoverview">
+                <div class="container">
+                    <div class="mainoverview-title">Tokenomics</div>
+                    <a  class="maincard">
+                        <img class="maincard-img" src="https://bitcoin.org/img/icons/ico_individuals.svg?1723489667" alt="Icon">
+                        <div>
+                            <p class="maincard-title">Supply</p>
+                            <p class="maincard-link">1B</p>
+                        </div>
+                    </a>
+                    <a  class="maincard">
+                        <img class="maincard-img" src="https://bitcoin.org/img/icons/ico_business.svg?1723489667" alt="Icon">
+                        <div>
+                            <p class="maincard-title">Liquidity</p>
+                            <p class="maincard-link">Burned</p>
+                        </div>
+                    </a>
+                    <a  class="maincard">
+                        <img class="maincard-img" src="https://bitcoin.org/img/icons/ico_developers.svg?1723489667" alt="Icon">
+                        <div>
+                            <p class="maincard-title">MINT/FREEZE</p>
+                            <p class="maincard-link">OFF</p>
+                        </div>
+                    </a>
+                </div>
+                <a class="btn-down" href="#maindesc-title">
+                    <img src="https://bitcoin.org/img/icons/ico_arrow_down.svg?1723489667" alt="Link">
+                </a>
+            </div>
+            <div class="maindesc">
+                <div class="container">
+                    <p class="section-title center home-title" id="maindesc-title">5j1wWnDNiQepDvaMM3oh8dYdDtFjfEe4p8jar9gypump</p>
+                    <div class="row maindesc-row">
+                        <div>
+                            <blockquote class="twitter-tweet">
+                                <p lang="en" dir="ltr">EXACTLY 15 years ago today, Satoshi Nakamoto debated naming <a
+                                        href="https://twitter.com/hashtag/Bitcoin?src=hash&amp;ref_src=twsrc%5Etfw">#Bitcoin</a> &quot;Titcoin&quot;
+                                    🤯<br><br>I can&#39;t believe Satoshi even considered this! 🤣 <a
+                                        href="https://t.co/pNxrwz56zm">pic.twitter.com/pNxrwz56zm</a></p>&mdash; Walker⚡️ (@WalkerAmerica) <a
+                                    href="https://twitter.com/WalkerAmerica/status/1826336638890377649?ref_src=twsrc%5Etfw">August 21, 2024</a>
+                            </blockquote>
+                            <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+                            
+                        </div>
+                        <img class="maindesc-img" src="./photo_2024-08-23_17-54-00.jpg" style="overflow: hidden;"  alt="Bitcoin image">
+                    </div>
+                    <div class="btn-container">
+                        <a class="btn btn-dark btn-home center" href="https://raydium.io/swap/?inputMint=sol&outputMint=5j1wWnDNiQepDvaMM3oh8dYdDtFjfEe4p8jar9gypump">Buy on Raydium</a>
+                    </div>
+                </div>
+            </div>
+
+          
+
+
+        </div>
+
+        
+    </div>
+
+
+
+    <script type="text/javascript">
+        fallbackSVG();
+        addAnchorLinks();
+        trackOutgoingLinks();
+        toggleDarkMode();
+        handlePageRedirect(false)
+    </script>
+
+
+
+
+
+
+</body>
+
+</html>
